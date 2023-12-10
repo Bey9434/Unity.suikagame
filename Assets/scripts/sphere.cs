@@ -45,7 +45,7 @@ public class sphere : MonoBehaviour
          Destroy(_previewSphere);
         Instantiate(_seeds[index], Camera.main.ScreenToWorldPoint(_mousePosition),Quaternion.identity);
       }
-
+      
    }
 
 }

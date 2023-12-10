@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     public static int Score { get; private set; }
+
     public delegate void ScoreUpdated(int newScore);
     public static event ScoreUpdated OnScoreUpdated;
 
@@ -13,6 +14,4 @@ public class ScoreManager : MonoBehaviour
         Score += amount;
         OnScoreUpdated?.Invoke(Score);
     }
-    
 }
-

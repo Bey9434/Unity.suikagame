@@ -52,6 +52,7 @@ public class collision : MonoBehaviour
             _score += _nextpoint; 
              ScoreManager.AddScore(_nextpoint);
             Debug.Log("Score updated: " + _score);
+            
 
             }
          }
