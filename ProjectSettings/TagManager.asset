@@ -16,6 +16,7 @@ TagManager:
   - Sphere9
   - Sphere10
   - seed
+  - Wall
   layers:
   - Default
   - TransparentFX
