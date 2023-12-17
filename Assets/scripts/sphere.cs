@@ -27,7 +27,7 @@ public class sphere : MonoBehaviour
    {
       _mousePosition = Input.mousePosition;
       _mousePosition.z = 100f; // カメラから球までの距離。プレハブの距離がキャンバス基準のrecttransformなので、その分の補正が必要。
-      _mousePosition.y = 750f;
+      _mousePosition.y = 1700f;
       //Debug.Log(_mousePosition);
 
     // スクリーン座標からワールド座標への変換
