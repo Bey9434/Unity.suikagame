@@ -46,7 +46,8 @@ public class collision : MonoBehaviour
             Destroy(collision.gameObject); // 衝突したオブジェクトを削除
             Destroy(this.gameObject); // このオブジェクト自身も削除
           
-             // プレハブから配列のインデックスを取得する。
+             // プレハブから配列のインデックスを取得する.
+             
             
              Instantiate(_nextball, _contactPoint,Quaternion.identity);
             _score += _nextpoint; 
